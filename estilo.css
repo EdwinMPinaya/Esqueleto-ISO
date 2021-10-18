@@ -1,0 +1,264 @@
+body {
+    font-family: "Titillium Web", sans-serif;
+  }
+  h1 {
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+  }
+  h2 {
+    padding-top: 70px;
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  h5 {
+    margin-bottom: 0px;
+    font-size: 24px;
+  }
+  p {
+    font-size: 18px;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 0;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  a ion-icon {
+    font-size: 22px;
+    color: #f87807;
+  }
+  section {
+    padding: 50px 0;
+  }
+  .g-light-grey {
+    background-color: #f5f5f5;
+  }
+  .bg-dark {
+    background-color: #ffb500 !important;
+  }
+  .topmargin-xs {
+    margin-top: 15px !important;
+  }
+  .topmargin-sm {
+    margin-top: 30px !important;
+  }
+  .topmargin-lg {
+    margin-top: 60px !important;
+  }
+  .btn {
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+  }
+  .btn-light {
+    background-color: #f52f41 !important;
+    color: #ffffff !important;
+    border: 2px solid #ffffff;
+  }
+  .btn i {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  .text-dark {
+    color: #1a1a1a;
+  }
+  #hero {
+    background-image: url(../imagen/hero.jpg);
+    background-size: cover;
+    padding-top: 160px;
+    min-height: 100px;
+    height: 950px;
+    color: #ffffff;
+  }
+  #hero1 {
+    background-image: url(../imagen/hero1.jpg);
+    background-size: cover;
+    padding-top: 160px;
+    min-height: 100px;
+    height: 950px;
+    color: #ffffff;
+  }
+  #hero p {
+    color: #ffffff;
+  }
+  #hero a {
+    font-size: 20px;
+    line-height: 1.8;
+    border-radius: 10px 60px 10px 60px;
+    position: relative;
+  }
+  #hero1 p {
+    color: #ffffff;
+  }
+  #hero1 a {
+    font-size: 20px;
+    line-height: 1.8;
+    border-radius: 10px 60px 10px 60px;
+    position: relative;
+  }
+  .navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+    min-height: 100px;
+  }
+  .nav-link {
+    color: #1a1a1a;
+  }
+  .nav-link:hover {
+    color: #1a1a1a;
+  }
+  .logo-brand {
+    min-width: 180px;
+    max-width: 160px;
+  }
+  .navbar-toggler {
+    font-size: 40px;
+  }
+  .navbar-toggler:focus {
+    outline: none;
+  }
+  
+  .content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+  }
+  .milapaz-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 30px;
+    border-radius: 30px;
+    box-sizing: border-box;
+  }
+  .milapaz-container img {
+    width: 1200px;
+    height: 400px;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    border-radius: 10px;
+  }
+  .milapaz-container:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  .milapaz-details h2 {
+    margin-bottom: 0px;
+  }
+  .milapaz-details {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+  }
+  .milapaz-details a h2,
+  .milapaz-details a p {
+    color: #ffffff;
+  }
+  .registro-details img {
+    left: 0;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(
+      center center,
+      ellipse,
+      white 25%,
+      peru 66%,
+      black 96%
+    );
+    opacity: 0.8;
+  }
+  .registro-container {
+    padding-top: 0px;
+  }
+  .carousel-caption {
+    font-family: "Arial Black", Gadget, sans-serif;
+    padding-bottom: 150px;
+    animation-duration: 3s;
+  }
+  .carousel-caption h3 {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .carousel-caption h4 {
+    color: #ff9d00;
+    font-size: 25px;
+  }
+  .carousel-caption h3 span {
+    color: #ff0000;
+  }
+  .carousel-caption a {
+    background: #ffea00;
+    padding: 15px 35px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #ff0000 !important;
+    text-transform: uppercase;
+    border-radius: 30px;
+  }
+  .carousel-caption.right {
+    background-image: none;
+  }
+  .carousel-caption.left {
+    background-image: none;
+  }
+  .member-container {
+    position: relative;
+    margin: 10px 0;
+  }
+  .member-details {
+    position: absolute;
+    color: #ffffff;
+    bottom: 0px;
+    left: 10px;
+  }
+  .member-details span {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .member-details ion-icon {
+    padding: 0 5px;
+  }
+  #footer {
+    padding: 50px 0;
+    text-align: center;
+    color: #ffffff;
+  }
+  #footer a {
+    color: #ffffff;
+  }
+  #footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+  }
+  .final {
+    padding-top: 100px;
+    bottom: 0;
+    position: fixed;
+  }
+  
+  @media (max-width: 575.98px) {
+    h1 {
+      font-size: 40px;
+      line-height: normal;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+
+  }
+  
+  @media (min-width: 1200px) {
+  }
+  

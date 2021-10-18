@@ -1,5 +1,5 @@
 <?php
-include('conexion.php');
+include("conexion/conexion.php");
 
 $usuario=$_POST['usuario'];
 $password=$_POST['password'];
@@ -29,7 +29,7 @@ else
     <?php
     include("index.html");
     ?>
-    <h1 class="bad">ERROR 404</h1>
+    <h1 class="bad">ERROR</h1>
     <?php
 } 
 

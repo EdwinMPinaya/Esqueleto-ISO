@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=h1, initial-scale=1.0">
-    <title>Control</title>
+    <title>Document</title>
 </head>
 <body>
-    <h1>bienvenido Usuario Control</h1>
+    <h1>Bienvenido Usuario Control</h1>
 </body>
 </html>
